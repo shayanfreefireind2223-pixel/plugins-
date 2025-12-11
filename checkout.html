@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Sharpy Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Sharpy Store</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button>Search</button>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="checkout-page">
+            <h1>Checkout</h1>
+            <form class="checkout-form">
+                <div class="form-section">
+                    <h2>Shipping Address</h2>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                    <label for="address">Address</label>
+                    <input type="text" id="address" required>
+                    <label for="city">City</label>
+                    <input type="text" id="city" required>
+                    <label for="zip">ZIP Code</label>
+                    <input type="text" id="zip" required>
+                </div>
+                <div class="form-section">
+                    <h2>Payment Information</h2>
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" required>
+                    <label for="expiry-date">Expiry Date</label>
+                    <input type="text" id="expiry-date" placeholder="MM/YY" required>
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" required>
+                </div>
+                <button type="submit" class="cta-button">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sharpy Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
